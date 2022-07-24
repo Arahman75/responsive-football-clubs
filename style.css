@@ -66,6 +66,7 @@ height: 438px;
 .player-section{
     display: flex;
     justify-content: center;
+    margin-bottom: 90px;
   }
 .container{
    width: 1050px;
@@ -76,7 +77,7 @@ height: 438px;
  }
 .player{
     width: 300px;
-height: 440px;
+height: 460px;
 /* border: solid 3px red; */
 box-shadow: 10px 10px 40px gray;
 background-color: white;
@@ -86,7 +87,85 @@ margin-bottom: 40px;
     width: 90%;
     padding: 5%;
 }
+.player-name{
+    font-weight: 700;
+font-size: 28px;
+color: #18191F;
+padding: 0;
+text-align: center;
+}
+.player-description{
+    font-weight: 400;
+font-size: 16px;
+color: #6C6C6C;
+padding: 0;
+text-align: center;
+}
 .player-info{
     padding:0 5%;
    
+}
+/* football banner styles */
+.chanel-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+  }
+.chanel-container{
+    width: 1100px;
+}
+.chanel{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 70px;
+}
+.chanel-info{
+    width: 466px;
+    height: 309px;
+ 
+    /* margin-top: 94px; */
+}
+.chanel-heading{
+    font-weight: 700;
+font-size: 48px;
+color: #0A0826;
+margin-bottom: 8px;
+}
+.chanel-description{
+    font-weight: 400;
+font-size: 16px;
+color: #6C6C6C;
+margin-bottom: 28px;
+}
+.chanel-info a{
+    color: white;
+    text-decoration: none;
+}
+.chanel-banner img{
+    width: 567px;
+height: 427px;
+}
+/* footer styles */
+.footer-section{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 483.87px;
+height: 213px;
+
+}
+.footer-logo img{
+    width: 483px;
+height: 110px;
+}
+.footer-icon{
+    text-align: center;
+}
+.footer-icon i{
+    width: 32px;
+    height: 32px;
+}
+footer{
+text-align: center;
 }
