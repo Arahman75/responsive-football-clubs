@@ -13,7 +13,6 @@ padding: 0;
     font-size: 16px;
     margin: 40px 100px;
     padding-top: 50px;
-
 }
 
 .navbar a{
@@ -31,8 +30,7 @@ padding: 0;
 header{
     background: #2D25A0;
     margin-bottom: 30px;
-   
-}
+   }
 
 /* top banner style */
 .top-banner{
@@ -48,14 +46,12 @@ header{
     color: white;
     text-decoration: none;
     margin-left: 24px;
-    
-}
+    }
 
 .title-name{
     font-weight: 700;
 font-size: 64px;
 color: #FFFFFF;
-
 }
 
 .banner img{
@@ -103,8 +99,7 @@ text-align: center;
 }
 .player-info{
     padding:0 5%;
-   
-}
+   }
 /* football banner styles */
 .chanel-section{
     display: flex;
@@ -122,8 +117,6 @@ text-align: center;
 .chanel-info{
     width: 466px;
     height: 309px;
- 
-    /* margin-top: 94px; */
 }
 .chanel-heading{
     font-weight: 700;
@@ -168,4 +161,9 @@ height: 110px;
 }
 footer{
 text-align: center;
+}
+/* media query */
+@media only screen and (max-width:688px) {
+    .top-banner, .players, .chanel{
+        grid-template-columns: repeat(1, 1fr);}
 }
